@@ -1,0 +1,5 @@
+import numpy as np
+m_A_arr = np.array([[1, 2,-3], [0, 1,2],[0,0,1]]) 
+print(m_A_arr)
+m_A_arr_inv = np.linalg.inv(m_A_arr)
+print(m_A_arr_inv)
