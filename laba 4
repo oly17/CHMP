@@ -1,0 +1,11 @@
+import numpy as np
+m_A_arr = np.array([[1, 2,], [4, -1]]) 
+print(m_A_arr)
+m_B_arr = np.array([[2, -3,], [-4, 1]]) 
+print(import numpy as np
+m_A_arr = np.array([[-1, 0,2], [0, 1,0],[1,2,-1]]) 
+print(m_A_arr)
+result = np.linalg.matrix_power(m_A_arr, 2)
+print(result)m_B_arr)
+D=(m_A_arr*m_B_arr)-(m_B_arr*m_A_arr)
+print("D=",D)
