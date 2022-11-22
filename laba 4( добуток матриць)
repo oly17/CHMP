@@ -1,0 +1,7 @@
+import numpy as np
+m_A_arr = np.array([[5, 8,-4], [6, 9,-5],[4,7,-3]]) 
+print(m_A_arr)
+m_B_arr = np.array([[3, 2,5], [4, -1,3],[9,6,5]]) 
+print(m_B_arr)
+result=m_A_arr.dot(m_B_arr)
+print(result)
