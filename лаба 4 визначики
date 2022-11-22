@@ -1,0 +1,5 @@
+import numpy as np
+m_A_arr = np.array([[2, 3,4], [1, 0,6],[7,8,9]]) 
+print(m_A_arr)
+m_A_arr_det=np.linalg.det(m_A_arr)
+print(format(m_A_arr_det,'.9g'))
